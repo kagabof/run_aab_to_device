@@ -1,4 +1,4 @@
-# AAB to APK Conversion Script (v2)
+# AAB to APK Conversion Script
 
 This script automates the process of converting an Android App Bundle (AAB) to an APK and installing it on a connected device. It uses `bundletool` to perform the conversion steps and `adb` to install the APK on a physical device. This version also includes a feature to download `bundletool` if it does not exist locally.
 
@@ -55,6 +55,9 @@ run_aab_to_device
 - The default output path for generated files is the current directory where the script is run.
 - Ensure that the paths specified in the script (e.g., `BUNDLETOOL_PATH`, `AAB_PATH`) are updated to match your environment.
 - If you do not specify an output path during execution, the default output path (`.`) will be used.
+
+## Author
+- **Faustin Kagabo**: [GitHub Profile](https://github.com/kagabof)
 
 ## Troubleshooting
 - **File Already Exists**: If you encounter errors about files already existing, the script automatically removes previous files before running.
