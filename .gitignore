@@ -1,0 +1,16 @@
+# Ignore generated APK set and extracted files
+app-release.apks
+output/
+
+# Ignore device spec JSON
+device-spec.json
+
+# Ignore bundletool jar file if not needed in the repo
+bundletool-all-1.17.2.jar
+
+# Ignore system files
+.DS_Store
+
+# Ignore log files and temporary files
+*.log
+*.tmp
